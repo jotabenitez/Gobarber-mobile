@@ -55,7 +55,7 @@ SelectProvider.navigationOptions = ({ navigation }) => ({
   headerLeft: () => (
     <TouchableOpacity
       onPress={() => {
-        navigation.goback();
+        navigation.goBack();
       }}
     >
       <Icon name="chevron-left" size={20} color="#fff" />
